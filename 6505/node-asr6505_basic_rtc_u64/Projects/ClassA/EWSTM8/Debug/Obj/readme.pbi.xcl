@@ -1,54 +1,54 @@
-"C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\readme.c"
+"E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\readme.c"
 -std=c99
 -ferror-limit=0
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\inc
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\inc
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\ASR6505
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\ASR6505
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\crypto
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\crypto
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac\region
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac\region
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\stm8\inc\c
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Projects\ClassA\inc
+E:\demo\6505\node-asr6505_basic_rtc_u64\Projects\ClassA\inc
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\Libraries\STM8L15x_StdPeriph_Driver\inc
+E:\demo\6505\node-asr6505_basic_rtc_u64\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\boards
+E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\boards
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\boards\ASR6505
+E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\boards\ASR6505
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\radio
+E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\radio
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\radio\sx126x
+E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\radio\sx126x
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\system
+E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\system
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\system\crypto
+E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\system\crypto
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\mac
+E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\mac
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\mac\region
+E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\mac\region
 -I
-C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505
+E:\demo\6505\node-asr6505_basic_rtc_u64\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

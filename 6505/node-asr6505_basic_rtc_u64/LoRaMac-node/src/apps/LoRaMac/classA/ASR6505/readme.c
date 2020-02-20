@@ -29,3 +29,4 @@
 //            INTERRUPT_HANDLER(EXTI7_IRQHandler) //IO口外部中断
 //            INTERRUPT_HANDLER(TIM2_CAP_IRQHandler) 串口中断接收中断
 //2020/0216   printf("write time1: %lu\r\n",McuWakeUpTime);    打印时候使用%d 会导致打印数值不准 使用 %lu
+//2020/02/20 读取时间tick 由u32更改为u32+u16 測試底层驱动OK 上层软件未测试 未实现

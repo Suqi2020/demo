@@ -5,351 +5,316 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\uart-board.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\sx126x-board.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\spi-board.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\sx1262-board.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\gpio-board.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\rtc-board.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\rtc-board.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\board.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\pinName-board.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\uart-board.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\spi-board.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\delay-board.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\utilities.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\board-config.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\gpio-board.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMac.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\delay-board.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\board.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\sx126x.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\lib\dbgstm8mmd.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\radio.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMacClassB.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\delay-board.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\rtc-board.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\readme.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\ATcmd.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\aes.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\board.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\sx126x.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\RegionCN470.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio-board.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\rtc-board.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.o</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\uart.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8mmn.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMacConfirmQueue.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio-board.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\ATcmd.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\Region.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\cmac.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\spi-board.o</file>
-            <file>$TOOLKIT_DIR$\config\lnkstm8l152m8.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\utilities.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\sx126x.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMacConfirmQueue.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMacClassB.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio-board.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\ATcmd.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.o</file>
-            <file>$PROJ_DIR$\Debug\List\project.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Region.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\RegionCN470.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8mmn.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart-board.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\rtc-board.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\cmac.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\aes.pbi</file>
-            <file>$PROJ_DIR$\Debug\Exe\project.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.pbi</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\delay-board.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\delay.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\spi-board.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart-board.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\delay-board.o</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\Region.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\radio.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\radio.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\sx126x.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCommon.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\aes.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\cmac.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacCrypto.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMac.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\delay.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacClassB.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\Region.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCN470.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\aes.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\delay.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\gpio.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\cmac.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCommon.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\sx126x.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacConfirmQueue.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacCrypto.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCN470.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\mcu\utilities.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\gpio.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\spi.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\ATcmd.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\ATcmd.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\readme.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c</file>
-            <file>$PROJ_DIR$\..\inc\stm8l15x_conf.h</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c</file>
-            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\Commissioning.h</file>
-            <file>$PROJ_DIR$\..\inc\stm8l15x_it.h</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacClassB.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.pbi</file>
-            <file>$PROJ_DIR$\..\src\stm8_interrupt_vector.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\radio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmac.o</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacConfirmQueue.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.o</file>
-            <file>$PROJ_DIR$\..\src\stm8l15x_it.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\board.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.o</file>
             <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacClassBConfig.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.__cstat.et</file>
             <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\radio.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.o</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay-board.o</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacClassB.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay-board.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\project.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.o</file>
             <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\fifo.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMacClassB.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.pbi</file>
             <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
             <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacTest.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCN470.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Exe\project.hex</file>
             <file>$PROJ_DIR$\Debug\Obj\readme.o</file>
             <file>$PROJ_DIR$\Debug\Obj\utilities.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\Region.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\readme.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.o</file>
             <file>$PROJ_DIR$\Debug\Obj\LoRaMacConfirmQueue.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\utilities.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\RegionCN470.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.pbi</file>
-            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacConfirmQueue.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\spi-board.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\radio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\cmac.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacClassB.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\radio.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Region.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\readme.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.o</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\delay.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\radio.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\sx126x.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCN470.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\Region.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCommon.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\Region.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\aes.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCN470.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\mcu\utilities.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCommon.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\cmac.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\radio.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\sx126x.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\aes.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacCrypto.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\cmac.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\readme.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx126x.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.pbi</file>
+            <file>$PROJ_DIR$\..\src\stm8_interrupt_vector.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay-board.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8mmd.a</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c</file>
+            <file>$PROJ_DIR$\..\src\stm8l15x_it.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\radio.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\ATcmd.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\readme.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c</file>
+            <file>$PROJ_DIR$\..\inc\stm8l15x_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacClassB.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c</file>
+            <file>$PROJ_DIR$\..\inc\stm8l15x_it.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\ATcmd.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\Commissioning.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx126x.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ATcmd.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio-board.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCN470.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\uart-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\rtc-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\sx126x-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\spi-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\board.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\utilities.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\delay-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\sx1262-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMac.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\board-config.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\gpio-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMac.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\pinName-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\gpio-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\spi-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\rtc-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\delay-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\uart-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacClassB.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacConfirmQueue.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacCrypto.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmac.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.o</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8mmn.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart-board.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Region.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCN470.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ATcmd.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio-board.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\project.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacConfirmQueue.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacClassB.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx126x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc-board.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\uart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacConfirmQueue.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8mmn.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ATcmd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.o</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8l152m8.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\Region.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmac.__cstat.et</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 130 103</file>
+                    <file> 28 239</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\sx1262-board.c</name>
+            <name>$PROJ_DIR$\Debug\Exe\project.out</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 53</file>
+                    <name>OBJCOPY</name>
+                    <file> 55</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 20</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 25</file>
+                    <name>ILINK</name>
+                    <file> 239</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 107 248 149 235 63 240 140 162 111 131 176 13 1 104 28 101 12 17 270 54 156 188 35 148 80 232 151 180 8</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 232 131 63 270 111 28 104 54 107 12 248 13 17 156 101 188 235 149 35 80 240 148 162 1 151 176 8 140 180</file>
+                    <name>ILINK</name>
+                    <file> 268 27 261 161 3 21 181 243 29 42 63 255 184 131 1 56 230 182 156 222 267 220 167 18 53 248 14 41 241 130 264 215 68 180 214 10 224 252 210 6 31 32 126 250 163 36 57 259 138</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\rtc-board.c</name>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 29</file>
-                </tool>
-                <tool>
                     <name>ICCSTM8</name>
-                    <file> 116</file>
+                    <file> 248</file>
                 </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 65</file>
-                </tool>
-            </outputs>
-            <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 240 217 176 172 17 123 131 104 28 63 177 189 101 72 12 5 111 170 211 248 35 183 188 149 107 270 54 80 132 178 179 173 235 140 251 156 148 8 187</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 251 131 63 270 111 28 104 54 107 123 35 80 240 72 189 248 217 177 178 170 179 172 173 211 132 17 156 101 188 235 149 12 148 183 176 8 140 5 187</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\board.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 38</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 44</file>
+                    <file> 217</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -358,133 +323,511 @@
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 172 189 188 217 176 101 149 12 17 63 111 131 177 107 240 187 180 1 123 104 28 170 211 248 8 67 184 13 5 0 270 54 132 178 179 173 140 235 151 35 156 251 80 237 148</file>
+                    <name>ICCSTM8</name>
+                    <file> 86 115 47 33 169 0 211 128 229 174 145 97 103 92 90 69 80 34</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 251 131 63 270 111 28 104 54 107 123 189 248 217 177 178 170 179 172 173 211 132 187 184 12 176 8 140 180 13 188 235 101 5 1 151 35 80 240 149 0 67 237 17 156 148</file>
+                    <name>BICOMP</name>
+                    <file> 211 97 33 90 115 145 229 128 86 80 47 34 169 0 174 103 92 69</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\uart-board.c</name>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 236</file>
+                    <name>ICCSTM8</name>
+                    <file> 18</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 146</file>
+                    <name>BICOMP</name>
+                    <file> 164</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 115</file>
+                    <file> 160</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 270 172 67 63 248 177 176 54 132 170 211 189 101 0 131 104 111 28 217 178 179 173 140 237 8</file>
+                    <name>ICCSTM8</name>
+                    <file> 97 115 47 33 169 0 211 128 229 174 145 103 86 92 90 69 80 34</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 248 131 63 270 111 28 104 54 189 217 177 178 170 179 172 173 211 132 176 8 140 0 67 237 101</file>
+                    <name>BICOMP</name>
+                    <file> 47 169 69 174 103 115 34 0 92 145 33 229 211 128 97 86 90 80</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\spi-board.c</name>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 144</file>
+                    <name>ICCSTM8</name>
+                    <file> 41</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 85</file>
+                    <name>BICOMP</name>
+                    <file> 60</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
+                    <file> 212</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 92 115 47 33 169 0 211 128 229 174 145 97 103 86 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211 97 33 90 145 229 128 86 80 115 47 34 169 0 174 103 92 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 241</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 247</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 90 115 47 33 169 0 211 128 229 174 145 97 103 86 92 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 169 92 0 115 47 174 103 69 97 145 33 229 211 128 86 90 80</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 264</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 256</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 93 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97 211 33 90 145 229 128 86 80 115 47 34 169 0 174 103 92 69 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 231</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 103 115 47 33 169 0 211 128 229 174 145 97 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211 115 97 33 90 145 229 128 86 80 47 34 169 0 174 103 92 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 77 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 169 92 97 0 115 47 174 103 69 145 33 229 211 128 86 90 80 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 262</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 113 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 97 115 145 33 229 128 86 211 90 47 34 169 0 174 103 92 69 113</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 233</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 91 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34 48 218 235</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128 229 115 145 33 86 80 218 48 47 211 97 90 91 34 169 0 174 103 92 69 235</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 223</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 78 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128 229 145 33 86 80 115 211 97 90 47 34 169 0 174 103 92 69 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 180</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 260</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 69 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103 174 115 47 169 69 34 0 92 145 33 229 211 128 97 86 90 80</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 234</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 48 33 169 0 211 128 229 174 218 235 91 115 47 145 97 103 86 92 90 69 80 34 190 197 213 111 65 101 159 265 45 191 105 187</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 197 34 47 69 111 218 174 169 103 115 101 65 213 265 190 33 0 92 191 91 187 235 229 211 128 145 97 86 90 80 159 105 45 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 209</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 155</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 200 98 47 33 169 0 211 128 229 174 199 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169 33 47 229 128 98 19 199 211 200 0 174</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
                     <file> 266</file>
                 </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 15</file>
+                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 211 188 189 131 240 176 132 104 28 170 12 13 248 111 177 172 156 35 148 101 107 140 17 1 2 217 63 270 54 178 179 173 149 235 80 180 186 8 151</file>
+                    <name>ICCSTM8</name>
+                    <file> 203 47 33 169 0 211 128 229 174 109</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 186 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132 12 17 156 101 188 235 107 149 35 80 240 148 176 8 140 1 151 180 13 2</file>
+                    <name>BICOMP</name>
+                    <file> 0 33 47 229 174 169 203 211 128 109</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\gpio-board.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCN470.c</name>
             <outputs>
                 <tool>
+                    <name>ICCSTM8</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
                     <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 232</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 48 33 169 0 211 128 229 174 218 235 191 47 106 197 213 111 65 101 159 265 45 105 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47 169 211 33 159 105 213 218 45 106 235 229 128 111 191 110 0 174 197 101 65 265 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\Region.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 230</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 269</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 213 263 33 169 0 211 128 229 174 218 47 197 111 65 101 159 265 45 191 105 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105 33 47 110 218 229 128 159 169 263 197 211 111 65 213 265 0 174 101 191 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\mcu\utilities.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
                     <file> 57</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 70</file>
+                    <name>BICOMP</name>
+                    <file> 240</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 95</file>
+                    <file> 51</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 63 189 5 179 107 54 178 140 13 131 270 132 173 235 170 12 188 4 123 104 111 28 248 101 251 217 177 172 211 187 176 8</file>
+                    <name>ICCSTM8</name>
+                    <file> 16 33 169 0 211 128 229 174 218 48 235 191 47</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 251 131 63 270 111 28 104 54 107 123 235 189 248 217 177 178 170 179 172 173 211 132 12 13 188 101 5 187 4 176 8 140</file>
+                    <name>BICOMP</name>
+                    <file> 33 191 218 0 169 48 229 174 16 211 128 235 47</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMac.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCommon.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 139</file>
+                    <name>ICCSTM8</name>
+                    <file> 156</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 259</file>
+                    <name>BICOMP</name>
+                    <file> 44</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 73</file>
+                    <file> 123</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 248 189 131 5 270 156 35 72 222 148 179 149 241 63 107 240 101 188 17 168 265 54 132 178 173 235 251 123 104 111 28 217 177 170 172 211 187 12 80</file>
+                    <name>ICCSTM8</name>
+                    <file> 159 33 265 169 0 211 128 229 174 45 115 47 145 97 103 86 92 90 69 80 34 191 106 197 213 111 65 218 101 105 48 235 190</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 251 131 63 270 111 28 104 54 107 123 189 248 217 177 178 170 179 172 173 211 132 101 72 149 188 235 5 187 17 156 35 80 240 12 148 222 168 241 265</file>
+                    <name>BICOMP</name>
+                    <file> 33 92 106 169 211 47 115 197 101 65 190 45 229 128 34 103 69 213 191 235 48 265 0 174 145 97 86 90 80 111 159 105 218</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\delay-board.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\cmac.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 27</file>
+                    <name>ICCSTM8</name>
+                    <file> 3</file>
                 </tool>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 270</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
                     <name>ICCSTM8</name>
-                    <file> 147</file>
+                    <file> 47 33 169 0 211 128 229 174 108 122 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0 169 108 122 174 47 191 33 229 211 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\radio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -493,274 +836,12 @@
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 189 270 63 179 11 217 54 178 173 177 248 132 131 104 111 28 170 172 211</file>
-                </tool>
-                <tool>
                     <name>ICCSTM8</name>
-                    <file> 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132 11</file>
+                    <file> 48 33 169 0 211 128 229 174 218 235 159 265 45 263 115 47 145 97 103 86 92 90 69 80 34 111 65 213 109 101 102 98 199 19 120 188 190 197 191 105</file>
                 </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\project.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 103</file>
-                </tool>
-                <tool>
-                    <name>OBJCOPY</name>
-                    <file> 242</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 86 137 78 44 268 147 48 70 201 259 238 69 60 32 267 243 105 56 50 116 85 112 58 134 239 92 230 250 66 31 79 102 253 34 100 145 120 91 96 225 228 138 20 89 47 146 244 68 22</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\radio.c</name>
-            <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 234</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 267</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 24</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 172 151 240 217 63 149 188 179 123 131 104 28 177 235 101 72 162 17 111 170 211 248 35 189 1 107 270 54 80 132 178 173 176 140 156 148 251 180 8 12</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 251 131 63 270 111 28 104 54 107 123 35 80 240 72 189 248 217 177 178 170 179 172 173 211 132 188 235 101 162 149 151 176 8 140 180 1 17 156 12 148</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\cmac.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 125</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 268</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 83</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 270 63 153 164 54 248 12 131 104 111 28</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 248 131 63 270 111 28 104 54 153 164 12</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacCrypto.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 49</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 60</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 55</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 54 63 164 270 248 153 168 131 104 111 28 12</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 12 248 131 63 270 111 28 104 54 153 164 168</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\delay.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 84</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 48</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 142</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 270 131 248 104 54 63 11 111 28 162</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 11 248 131 63 270 111 28 104 54 162</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacClassB.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 26</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 238</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 94</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 270 188 131 248 222 63 12 168 107 54 80 35 148 101 156 231 265 123 104 111 28 240 149 235 251</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 251 131 63 270 111 28 104 54 107 123 35 80 240 12 248 156 101 188 235 149 148 222 231 168 265</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\Region.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 82</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 105</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 246</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 148 131 248 160 107 104 28 35 63 72 156 111 188 235 101 80 270 54 149 12 240</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 101 72 131 63 270 111 28 104 54 107 248 156 188 235 149 35 80 240 12 148 160</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\aes.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 129</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 137</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 43</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 104 63 153 111 248 131 107 28 232 270 54</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 232 131 63 270 111 28 104 54 107 248 153</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 126</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 201</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 46</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 63 131 248 104 28 176 140 8 111 4 270 54</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 4 176 248 131 63 270 111 28 104 54 8 140</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCommon.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 260</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 50</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 19</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 131 179 152 63 111 248 189 156 149 235 17 240 104 28 132 178 173 101 12 123 251 80 270 54 217 177 170 172 211 188 35 148 107</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 35 131 80 63 270 111 28 104 54 240 189 248 217 177 178 170 179 172 173 211 132 12 152 156 101 188 235 107 149 148 251 123 17</file>
+                    <file> 90 102 45 145 169 101 111 92 235 33 229 128 97 65 213 263 109 190 211 86 80 47 159 115 188 218 0 174 265 34 103 69 98 19 197 105 48 120 199 191</file>
                 </tool>
             </inputs>
         </file>
@@ -768,134 +849,242 @@
             <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\sx126x.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 51</file>
+                    <name>ICCSTM8</name>
+                    <file> 250</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 89</file>
+                    <name>BICOMP</name>
+                    <file> 158</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 21</file>
+                    <file> 132</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 131 107 104 28 63 101 162 35 80 188 1 111 248 180 12 149 151 270 54 235 176 240 140 72 8</file>
+                    <name>ICCSTM8</name>
+                    <file> 263 33 169 0 211 128 229 174 218 191 47 111 65 213 101 109 102 159 265 45 98 199 19 120 188</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 72 131 63 270 111 28 104 54 107 12 248 188 235 101 149 162 151 35 80 240 176 8 140 180 1</file>
+                    <name>BICOMP</name>
+                    <file> 33 218 229 128 169 213 109 159 265 111 188 211 47 120 191 101 102 0 174 65 98 45 19 263 199</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacConfirmQueue.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\aes.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 90</file>
+                    <name>ICCSTM8</name>
+                    <file> 27</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 69</file>
+                    <name>BICOMP</name>
+                    <file> 7</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 254</file>
+                    <file> 173</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 248 54 12 63 131 101 235 265 270 107 149 80 188 156 104 111 28 35 148 240</file>
+                    <name>ICCSTM8</name>
+                    <file> 16 33 169 0 211 128 229 174 218 47 108</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 248 131 63 270 111 28 104 54 101 235 107 188 12 156 149 35 80 240 148 265</file>
+                    <name>BICOMP</name>
+                    <file> 229 169 108 211 47 33 218 128 16 0 174</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCN470.c</name>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 262</file>
+                    <name>ICCSTM8</name>
+                    <file> 214</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 56</file>
+                    <name>BICOMP</name>
+                    <file> 35</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 109</file>
+                    <file> 166</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 248 63 111 131 35 148 101 107 240 152 123 104 28 188 12 160 270 54 156 149 235 80 251</file>
+                    <name>ICCSTM8</name>
+                    <file> 70 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 251 131 63 270 111 28 104 54 107 123 12 248 152 156 101 188 235 149 35 80 240 148 160</file>
+                    <name>BICOMP</name>
+                    <file> 115 80 145 33 229 128 86 211 97 90 47 34 169 0 174 103 92 69 70</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\mcu\utilities.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 87</file>
+                    <name>ICCSTM8</name>
+                    <file> 131</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 244</file>
+                    <name>BICOMP</name>
+                    <file> 49</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 261</file>
+                    <file> 228</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 131 12 107 270 63 251 104 54 232 111 28 123 248</file>
+                    <name>ICCSTM8</name>
+                    <file> 48 33 169 0 211 128 229 174 218 235 115 47 145 97 103 86 92 90 69 80 34 190 197 213 111 65 101 159 265 45 191 105 98 199 19 154 204 254 43 151 16 263 91 22 187 78</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 232 131 63 270 111 28 104 54 107 251 123 12 248</file>
+                    <name>BICOMP</name>
+                    <file> 69 169 43 154 34 197 159 213 265 191 187 218 174 103 115 47 65 92 98 151 33 0 111 91 190 204 22 78 235 229 211 128 145 97 86 90 80 101 199 16 48 105 45 19 254 263</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.c</name>
+            <name>$PROJ_DIR$\..\src\stm8_interrupt_vector.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 36</file>
+                    <name>ICCSTM8</name>
+                    <file> 220</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 47</file>
+                    <name>BICOMP</name>
+                    <file> 20</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 122</file>
+                    <file> 50</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 156 132 248 173 188 107 54 63 178 189 149 235 101 80 17 131 270 179 12 187 5 123 104 111 28 217 177 170 172 211 35 148 240 251</file>
+                    <name>ICCSTM8</name>
+                    <file> 150 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
                 </tool>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 33 145 86 229 128 80 115 211 97 90 47 34 169 0 174 103 92 69 150</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c</name>
+            <outputs>
+                <tool>
                     <name>ICCSTM8</name>
-                    <file> 251 131 63 270 111 28 104 54 107 123 187 189 248 217 177 178 170 179 172 173 211 132 17 156 101 188 235 149 35 80 240 12 148 5</file>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 246</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 80 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90 97 34 47 169 211 115 145 33 229 128 86 80 0 174 103 92 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 210</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 226</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 236</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 79 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115 211 97 33 90 145 229 128 86 80 47 34 169 0 174 103 92 69 79</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 253</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 94 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 169 92 0 115 47 174 103 69 94 145 33 229 211 128 97 86 90 80</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\stm8l15x_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 183</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 150 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34 91 94 48 218 235 190 197 213 111 65 101 159 265 45 191 105 151 16 263</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218 169 69 159 213 105 45 47 190 145 174 103 115 235 94 0 92 111 33 91 48 151 34 229 211 128 97 86 90 80 197 101 191 65 16 150 265 263</file>
                 </tool>
             </inputs>
         </file>
@@ -903,66 +1092,272 @@
             <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\ATcmd.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 39</file>
+                    <name>ICCSTM8</name>
+                    <file> 261</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 78</file>
+                    <name>BICOMP</name>
+                    <file> 170</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 97</file>
+                    <file> 237</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 131 123 189 63 104 28 67 220 232 179 149 235 248 0 156 187 111 217 178 173 160 17 113 251 72 270 54 107 132 177 170 172 211 101 12 80 176 8 99 59 136 193 188 35 148 240 237 140 42 255 62</file>
+                    <name>ICCSTM8</name>
+                    <file> 151 47 33 169 0 211 128 229 174 48 218 235 16 263 91 115 145 97 103 86 92 90 69 80 34 110 197 213 111 65 101 159 265 45 191 105 204 254 43 98 199 19 190 154 221 216 176 168 38 178 13</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 193 248 131 63 270 111 28 104 54 251 107 123 232 72 187 189 217 177 178 170 179 172 173 211 132 160 156 101 188 235 149 35 80 240 12 148 0 67 237 176 8 140 17 220 113 99 42 62 255 59 136</file>
+                    <name>BICOMP</name>
+                    <file> 33 235 115 169 229 128 254 154 16 92 101 65 47 204 197 91 211 145 103 69 110 190 221 48 263 0 174 218 34 97 86 90 80 213 191 265 98 199 216 178 13 151 111 159 105 45 43 19 176 38 168</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\readme.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 264</file>
+                    <name>ICCSTM8</name>
+                    <file> 56</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 250</file>
+                    <name>BICOMP</name>
+                    <file> 67</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 114</file>
+                    <file> 129</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 111 177 131 172 217 104 28 170 211 189 248 132 63 270 54 178 179 173</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 179 189 248 131 63 270 111 28 104 54 217 177 178 170 172 173 211 132</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 71</file>
+                    <name>ICCSTM8</name>
+                    <file> 6</file>
                 </tool>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 258</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
                     <name>ICCSTM8</name>
+                    <file> 95 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 169 92 115 47 0 174 103 69 95 145 33 229 211 128 97 86 90 80</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 224</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 87 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 169 92 115 47 0 174 103 69 87 145 33 229 211 128 97 86 90 80</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 252</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 244</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 71 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 169 92 115 47 0 174 103 69 71 145 33 229 211 128 97 86 90 80</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 72 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 97 115 145 33 229 128 86 211 90 47 34 169 0 174 103 92 69 72</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\uart-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
                     <file> 225</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 47 33 169 0 211 128 229 174 115 145 97 103 86 92 90 69 80 34 98 199 19 204 254 43 213</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0 90 254 169 47 97 98 174 34 86 80 115 213 204 33 229 211 128 145 103 92 69 19 43 199</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\spi-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 267</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 70 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34 191 190 197 213 111 65 218 101 159 265 45 105 98 199 19 188 102 120 195 201</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 111 115 33 45 98 34 229 128 86 191 195 47 211 97 90 197 159 105 213 218 19 190 188 201 145 169 0 174 103 92 69 101 65 265 120 70 199 102</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\delay-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 115 47 33 169 0 211 128 229 174 145 97 103 86 92 90 69 80 34 203</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115 0 169 92 203 145 174 103 69 97 47 34 33 229 211 128 86 90 80</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\sx1262-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 16 33 169 0 211 128 229 174 218 191 47 195 190 197 213 111 65 101 159 265 45 105 109 188 102 98 199 19 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218 47 101 65 169 45 19 109 211 33 98 195 188 229 128 213 191 190 0 174 197 111 159 105 265 16 102 120 199</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -971,569 +1366,174 @@
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 132 63 179 189 248 270 54 178 173 198 217 131 104 111 28 177 170 172 211</file>
+                    <name>ICCSTM8</name>
+                    <file> 48 33 169 0 211 128 229 174 218 235 115 47 145 97 103 86 92 90 69 80 34 213 263 101 111 65 187 91 190 197 159 265 45 191 105 22 121 46 4</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 198 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
+                    <name>BICOMP</name>
+                    <file> 47 115 33 187 0 197 159 263 22 105 92 101 46 169 218 45 213 111 190 121 4 174 34 103 69 65 48 235 229 211 128 145 97 86 90 80 91 191 265</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\readme.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\gpio-board.c</name>
             <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 249</file>
-                </tool>
                 <tool>
                     <name>ICCSTM8</name>
                     <file> 243</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 30</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c</name>
-            <outputs>
-                <tool>
                     <name>BICOMP</name>
-                    <file> 118</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 253</file>
+                    <file> 177</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 247</file>
+                    <file> 238</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 28 104 189 217 131 170 211 107 251 248 111 177 172 187 132 63 270 54 178 179 173 123</file>
+                    <name>ICCSTM8</name>
+                    <file> 48 33 169 0 211 128 229 174 218 235 65 115 47 145 97 103 86 92 90 69 80 34 191 195 111 213 187 91 200 98 199 19</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 187 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132 251 107 123</file>
+                    <name>BICOMP</name>
+                    <file> 169 115 187 92 218 174 103 19 195 33 0 34 69 65 86 191 111 200 235 229 211 128 47 213 48 145 97 90 80 91 98 199</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\board.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 258</file>
+                    <name>ICCSTM8</name>
+                    <file> 161</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 102</file>
+                    <name>BICOMP</name>
+                    <file> 172</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 133</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 132 63 179 177 270 189 248 54 178 173 217 131 104 111 28 170 172 211 183</file>
+                    <name>ICCSTM8</name>
+                    <file> 48 33 169 0 211 128 229 174 218 235 115 47 145 97 103 86 92 90 69 80 34 91 78 191 98 199 19 120 195 111 65 213 187 188 102 159 265 45 101 204 254 43 190 197 105</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 183 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
+                    <name>BICOMP</name>
+                    <file> 90 115 111 145 98 213 101 191 190 169 211 33 97 218 45 91 120 188 235 229 128 86 80 47 199 254 78 195 187 204 0 174 34 103 92 69 19 65 102 159 197 48 265 43 105</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\rtc-board.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 256</file>
+                    <name>ICCSTM8</name>
+                    <file> 222</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 32</file>
+                    <name>BICOMP</name>
+                    <file> 152</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 98</file>
+                    <file> 251</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 173 63 237 220 132 156 35 101 80 12 5 107 54 178 189 248 235 179 176 193 131 270 188 187 17 0 222 184 123 104 111 28 217 177 170 172 211 149 8 232 251 148 240 140 67 72</file>
+                    <name>ICCSTM8</name>
+                    <file> 48 33 169 0 211 128 229 174 218 235 159 265 45 263 115 47 145 97 103 86 92 90 69 80 34 190 197 213 111 65 101 191 105 77 98 199 19 187 91</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 251 131 63 270 111 28 104 54 107 123 189 248 217 177 178 170 179 172 173 211 132 17 156 101 188 235 149 35 80 240 12 148 176 8 140 220 0 67 237 193 232 72 187 222 5 184</file>
+                    <name>BICOMP</name>
+                    <file> 45 145 98 90 190 235 33 229 128 169 97 115 213 263 191 187 211 86 80 47 159 77 111 101 218 0 174 265 34 103 92 69 65 19 48 197 105 199 91</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacClassB.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 23</file>
+                    <name>ICCSTM8</name>
+                    <file> 63</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 145</file>
+                    <name>BICOMP</name>
+                    <file> 148</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 74</file>
+                    <file> 249</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 132 63 179 270 189 248 54 178 173 182 217 131 104 111 28 177 170 172 211</file>
+                    <name>ICCSTM8</name>
+                    <file> 48 33 169 0 211 128 229 174 218 235 159 265 45 191 47 197 213 111 65 101 105 22 11 121 4</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 182 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
+                    <name>BICOMP</name>
+                    <file> 0 111 33 47 22 169 191 121 218 174 265 159 105 213 197 11 4 235 229 211 128 45 101 65 48</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacConfirmQueue.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 128</file>
-                </tool>
-                <tool>
                     <name>ICCSTM8</name>
-                    <file> 120</file>
+                    <file> 255</file>
                 </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 110</file>
-                </tool>
-            </outputs>
-            <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 132 63 179 189 248 270 54 178 173 174 217 131 104 111 28 177 170 172 211</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 174 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 119</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 96</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 124</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 189 111 177 131 172 217 104 28 170 211 248 132 63 270 54 178 179 173 185</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 185 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 77</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 228</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 127</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 172 177 132 248 63 111 189 217 131 104 28 170 211 270 54 178 179 173</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 211 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 106</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 239</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 33</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 111 189 177 131 172 217 104 28 170 211 248 132 63 270 54 178 179 173</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 178 189 248 131 63 270 111 28 104 54 217 177 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 117</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 230</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 252</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 28 104 217 131 170 211 189 111 177 172 248 132 63 270 54 178 179 173 184</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 184 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 229</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 58</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 81</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 211 177 189 217 131 104 28 170 111 172 248 132 63 270 54 178 179 173 191</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 191 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 263</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 34</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 75</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 178 54 189 248 63 173 132 270 179 217 131 104 111 28 177 170 172 211</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 173 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 135</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 100</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 37</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 189 211 217 131 104 28 170 111 177 172 248 132 63 270 54 178 179 173 186</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 186 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 18</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 138</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 233</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 211 177 189 217 131 104 28 170 111 172 248 132 63 270 54 178 179 173 215</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 215 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 76</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 66</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 41</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 132 63 179 270 189 248 54 178 173 177 217 131 104 111 28 170 172 211</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 172 189 248 131 63 270 111 28 104 54 217 177 178 170 179 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 64</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 91</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 40</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 132 63 179 189 248 270 54 178 173 175 217 131 104 111 28 177 170 172 211</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 175 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 108</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 92</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 121</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 111 177 131 172 189 217 104 28 170 211 248 132 63 270 54 178 179 173</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 170 189 248 131 63 270 111 28 104 54 217 177 178 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 61</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 134</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 52</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 248 63 173 54 178 189 132 270 179 217 131 104 111 28 177 170 172 211</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 177 189 248 131 63 270 111 28 104 54 217 178 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 88</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 79</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 93</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 177 111 131 172 217 104 28 170 211 189 248 132 63 270 54 178 179 173 181</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 181 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\src\stm8_interrupt_vector.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 143</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 112</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
                     <file> 245</file>
                 </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 59</file>
+                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 131 217 170 104 28 211 189 111 177 172 248 132 63 270 54 178 179 173 221</file>
+                    <name>ICCSTM8</name>
+                    <file> 47 33 169 0 211 128 229 174 213 65 218 111 191 197 101 159 265 45 105 4</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 221 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132</file>
+                    <name>BICOMP</name>
+                    <file> 47 174 191 169 33 213 65 4 0 218 101 265 111 197 229 211 128 159 105 45</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\src\stm8l15x_it.c</name>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacCrypto.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 223</file>
+                    <name>ICCSTM8</name>
+                    <file> 184</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 31</file>
+                    <name>BICOMP</name>
+                    <file> 179</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 45</file>
+                    <file> 185</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 107 63 173 35 101 148 240 248 17 217 54 178 189 123 182 270 179 188 131 187 251 193 132 104 111 28 177 170 172 211 156 149 12 235 232 221 80 72</file>
+                    <name>ICCSTM8</name>
+                    <file> 191 47 33 169 0 211 128 229 174 108 122 121</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 221 189 248 131 63 270 111 28 104 54 217 177 178 170 179 172 173 211 132 187 182 251 107 123 17 156 101 188 235 149 35 80 240 12 148 193 232 72</file>
+                    <name>BICOMP</name>
+                    <file> 174 169 122 0 47 108 121 33 229 211 128 191</file>
                 </tool>
             </inputs>
         </file>
