@@ -1,0 +1,41 @@
+---- RxWindow2Config Matches (40 in 2 files) ----
+OnRxWindow2TimerEvent in LoRaMac - 副本.c (LoRaMac-node\src\mac) :     RxWindow2Config.Channel = Channel;
+OnRxWindow2TimerEvent in LoRaMac - 副本.c (LoRaMac-node\src\mac) :     RxWindow2Config.Frequency = LoRaMacParams.Rx2Channel.Frequency;
+OnRxWindow2TimerEvent in LoRaMac - 副本.c (LoRaMac-node\src\mac) :     RxWindow2Config.DownlinkDwellTime = LoRaMacParams.DownlinkDwellTime;
+OnRxWindow2TimerEvent in LoRaMac - 副本.c (LoRaMac-node\src\mac) :     RxWindow2Config.RepeaterSupport = RepeaterSupport;
+OnRxWindow2TimerEvent in LoRaMac - 副本.c (LoRaMac-node\src\mac) :     RxWindow2Config.RxSlot = RX_SLOT_WIN_2;
+OnRxWindow2TimerEvent in LoRaMac - 副本.c (LoRaMac-node\src\mac) :         RxWindow2Config.RxContinuous = false;
+OnRxWindow2TimerEvent in LoRaMac - 副本.c (LoRaMac-node\src\mac) :         RxWindow2Config.RxContinuous = true;
+OnRxWindow2TimerEvent in LoRaMac - 副本.c (LoRaMac-node\src\mac) :     if( RegionRxConfig( LoRaMacRegion, &RxWindow2Config, ( int8_t* )&McpsIndication.RxDatarate ) == true )
+OnRxWindow2TimerEvent in LoRaMac - 副本.c (LoRaMac-node\src\mac) :         RxWindowSetup( RxWindow2Config.RxContinuous, LoRaMacParams.MaxRxWindow );
+ScheduleTx in LoRaMac - 副本.c (LoRaMac-node\src\mac) :                                      &RxWindow2Config );
+ScheduleTx in LoRaMac - 副本.c (LoRaMac-node\src\mac) :         RxWindow2Delay = LoRaMacParams.JoinAcceptDelay2 + RxWindow2Config.WindowOffset;
+ScheduleTx in LoRaMac - 副本.c (LoRaMac-node\src\mac) :         RxWindow2Delay = LoRaMacParams.ReceiveDelay2 + RxWindow2Config.WindowOffset;
+SwitchClass in LoRaMac - 副本.c (LoRaMac-node\src\mac) :                                                  &RxWindow2Config );
+LoRaMacMibSetRequestConfirm in LoRaMac - 副本.c (LoRaMac-node\src\mac) :                                                          &RxWindow2Config );
+LoRaMacMibSetRequestConfirm in LoRaMac - 副本.c (LoRaMac-node\src\mac) :                                                      &RxWindow2Config );
+LoRaMac.c (LoRaMac-node\src\mac) line 372 : static RxConfigParams_t RxWindow2Config;
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :     RxWindow2Config.Channel = Channel;
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :     RxWindow2Config.Datarate = LoRaMacParams.Rx2Channel.Datarate;
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :     RxWindow2Config.Frequency = LoRaMacParams.Rx2Channel.Frequency;
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :     RxWindow2Config.DownlinkDwellTime = LoRaMacParams.DownlinkDwellTime;
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :     RxWindow2Config.RepeaterSupport = LoRaMacParams.RepeaterSupport;
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :     RxWindow2Config.RxSlot = RX_SLOT_WIN_2;
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :         RxWindow2Config.RxContinuous = false;
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :         RxWindow2Config.RxContinuous = true;
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :     if ( RegionRxConfig( LoRaMacRegion, &RxWindow2Config, ( int8_t * )&McpsIndication.RxDatarate ) == true ) {
+OnRxWindow2TimerEvent in LoRaMac.c (LoRaMac-node\src\mac) :         RxWindowSetup( RxWindow2Config.RxContinuous, LoRaMacParams.MaxRxWindow );
+SwitchClass in LoRaMac.c (LoRaMac-node\src\mac) :                                                  &RxWindow2Config );
+ScheduleTx in LoRaMac.c (LoRaMac-node\src\mac) :                                      &RxWindow2Config );
+ScheduleTx in LoRaMac.c (LoRaMac-node\src\mac) :         RxWindow2Delay = LoRaMacParams.JoinAcceptDelay2 + RxWindow2Config.WindowOffset;
+ScheduleTx in LoRaMac.c (LoRaMac-node\src\mac) :         RxWindow2Delay = LoRaMacParams.ReceiveDelay2 + RxWindow2Config.WindowOffset;
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                                                      &RxWindow2Config );
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                     RxWindow2Config.Channel = Channel;
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                     RxWindow2Config.Frequency = LoRaMacParams.Rx2Channel.Frequency;
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                     RxWindow2Config.DownlinkDwellTime = LoRaMacParams.DownlinkDwellTime;
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                     RxWindow2Config.RepeaterSupport = LoRaMacParams.RepeaterSupport;
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                     RxWindow2Config.RxSlot = RX_SLOT_WIN_2;
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                     RxWindow2Config.RxContinuous = true;
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                     if ( RegionRxConfig( LoRaMacRegion, &RxWindow2Config, ( int8_t * )&McpsIndication.RxDatarate ) == true ) {
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                         RxWindowSetup( RxWindow2Config.RxContinuous, LoRaMacParams.MaxRxWindow );
+LoRaMacMibSetRequestConfirm in LoRaMac.c (LoRaMac-node\src\mac) :                         RxSlot = RxWindow2Config.RxSlot;

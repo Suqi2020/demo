@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <DebugChecksum>
+        <Checksum>2265329038</Checksum>
+    </DebugChecksum>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <struct_types>
+        <Fmt0>RTC_TimeTypeDef-RTC_Minutes	2	0</Fmt0>
+    </struct_types>
+    <DataSample>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+    </DataSample>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.681.13" 0 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.892.5" 0 0 0 0 "" 0 ""</Bp1>
+        <Bp2>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp2>
+        <Bp3>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp3>
+        <Bp4>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp4>
+        <Bp5>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp5>
+        <Bp6>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp6>
+        <Bp7>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp7>
+        <Bp8>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp8>
+        <Bp9>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp9>
+        <Bp10>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp10>
+        <Bp11>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp11>
+        <Bp12>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.c}.465.1" 0 0 0 0 "" 0 ""</Bp12>
+        <Bp13>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.c}.465.1" 0 0 0 0 "" 0 ""</Bp13>
+        <Bp14>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.339.5" 0 0 0 0 "" 0 ""</Bp14>
+        <Bp15>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.346.1" 0 0 0 0 "" 0 ""</Bp15>
+        <Bp16>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.346.5" 0 0 0 0 "" 0 ""</Bp16>
+        <Bp17>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp17>
+        <Bp18>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp18>
+        <Bp19>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp19>
+        <Bp20>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp20>
+        <Bp21>_ "STD_CODE" "{H:\hyptek.com\work_2019\LoraWan\ASR6505\lorawan_node\node-asr6505_addaclassb -rtcsetok}.0.1" 0 0 0 0 "" 0 ""</Bp21>
+        <Bp22>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\rtc-board.c}.836.5" 0 0 0 0 "" 0 ""</Bp22>
+        <Bp23>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c}.873.5" 1 0 0 0 "" 0 ""</Bp23>
+        <Count>24</Count>
+    </Breakpoints>
+    <Aliases>
+        <A0>_ "C:\Users\89149\Desktop\node-asr6505_addaclassb - 副本\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c" ""</A0>
+        <A1>_ "C:\Users\89149\Desktop\node-asr6505_addaclassb -rtcsetok\LoRaMac-node\src\boards\ASR6505\rtc-board.c" ""</A1>
+        <A2>_ "C:\Users\Administrator\Desktop\node-asr6505_addaclassb -rtc\node-asr6505_addaclassb -rtc\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c" ""</A2>
+        <A3>_ "C:\Users\Administrator\Desktop\node-asr6505wanyi\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c" ""</A3>
+        <A4>_ "E:\工作作品-2019\单片机软件\lora\node-asr6505wanyi\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""</A4>
+        <A5>_ "E:\工作作品-2019\单片机软件\lora\node-asr6505wanyi\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c" ""</A5>
+        <A6>_ "E:\工作作品-2019\单片机软件\lora\node-asr6505wanyi\LoRaMac-node\src\boards\ASR6505\board.c" ""</A6>
+        <Count>7</Count>
+        <SuppressDialog>1</SuppressDialog>
+    </Aliases>
+    <DebuggerSettings>
+        <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
+        <LeaveTargetRunning>0</LeaveTargetRunning>
+    </DebuggerSettings>
+</settings>
